@@ -34,7 +34,7 @@ Port                 /{#PowerStoreIP}/port
 Nas                  /{#PowerStoreIP}/nas
 FileSystem           /{#PowerStoreIP}/file
 ```
-Sample: http://127.0.0.1:9010/metrics/10.0.0.1/Cluster
+Sample: http://127.0.0.1:9010/metrics/10.0.0.1/cluster
 
 You can choose either Prometheus or Zabbix to collect/scrape metrics, then use Grafana to render/visualize the metrics.
 For Prometheus the flow would be: PowerStore(s) --> exporter --> multiple targets --> Prometheus scrape jobs --> Prometheus --> Grafana
